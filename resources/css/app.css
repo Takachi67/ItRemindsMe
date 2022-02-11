@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Mali:wght@300&display=swap");
+
+* {
+    font-family: "Mali", cursive;
+}
+
+.hand-bordered {
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-bottom-left-radius:15px 255px;
+    border: solid 3px;
+    background: #ffffff;
+}
+
+.hand-bordered:hover {
+    box-shadow: 2px 8px 4px -6px hsla(0, 0%, 0%, .3);
+}
